@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Contact/business details live only in `src/lib/site.ts`; pages read from it so details change in one place.
+- Site photos are imported only through `src/lib/images.ts` (CDN asset pointers), so swapping a photo touches one file.
+- Contact form submissions are validated with the shared zod schema in `src/lib/contact.schema.ts` and stored server-side via `src/lib/contact.functions.ts` (service role insert; table has no public policies) so leads are never lost and never readable by visitors.
+- Design tokens (pastel logo palette, fonts, animations, button variants hero/blush/soft) live in `src/styles.css` and `button.tsx`; components never hardcode colors.

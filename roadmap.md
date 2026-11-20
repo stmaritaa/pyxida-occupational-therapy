@@ -1,0 +1,8 @@
+# Roadmap
+- [x] Pyxida OT website in Greek: Home + Contact pages, design system, animations
+- [x] Use uploaded compass logo (header, footer, favicon)
+- [x] No adult faces; real (non-AI) photos of children
+- [x] Pastel colours from the logo (mint + blush)
+- [x] Contact form saves requests
+- [ ] Real phone, email, address, hours — waiting on the owner (placeholders in place)
+- [ ] Owner email notification for new requests — needs a verified email domain
