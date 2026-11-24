@@ -6,3 +6,7 @@
 - [x] Contact form saves requests
 - [ ] Real phone, email, address, hours — waiting on the owner (placeholders in place)
 - [ ] Owner email notification for new requests — needs a verified email domain
+- [ ] New pages: Υπηρεσίες, Σχετικά με εμένα, Οδηγός για γονείς & FAQ, Ιδέες για το σπίτι / Δωρεάν υλικό, Άρθρα (blog)
+- [ ] Menu + footer rewired to the new pages, CTA = «Κλείσιμο ραντεβού»
+- [ ] More animations & interactive elements (filters, tabs, scroll progress, print-friendly activities)
+- [ ] Article pages with real Greek content under /blog
